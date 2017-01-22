@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.customizeUI()
         return true
     }
 
@@ -41,6 +42,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func customizeUI() {
+        //Aquí configuramos el color de la letra de titulo en la NavigationBar
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor(hue: 204/360, saturation: 76/100, brightness: 86/100, alpha: 1.0)]
+        //Aquí configuramos el color de los iconos y del texto en la TabBar
+        UITabBar.appearance().tintColor = UIColor(hue: 204/360, saturation: 76/100, brightness: 86/100, alpha: 1.0)
+    }
 }
 
