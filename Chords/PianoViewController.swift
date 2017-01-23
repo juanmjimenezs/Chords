@@ -1,5 +1,5 @@
 //
-//  GuitarViewController.swift
+//  PianoViewController.swift
 //  Chords
 //
 //  Created by Juan Manuel Jimenez Sanchez on 22/01/17.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class GuitarViewController: UIViewController {
+class PianoViewController: UIViewController {
 
-    @IBOutlet weak var imgGuitarChord: UIImageView!
+    @IBOutlet weak var imgPianoChord: UIImageView!
     @IBOutlet weak var lblChordName: UILabel!
     
     override func viewDidLoad() {
@@ -26,37 +26,37 @@ class GuitarViewController: UIViewController {
     
     @IBAction func chordButtonPressed(_ sender: UIButton) {
         self.lblChordName.text = sender.titleLabel?.text
-        self.setChordImage(sender.tag)
+        setChordImage(sender.tag)
     }
     
     func setChordImage(_ tag: Int) {
         switch tag {
         case 1:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_do")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_do")
         case 2:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_re")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_re")
         case 3:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_rem")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_rem")
         case 4:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_mi")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_mi")
         case 5:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_mim")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_mim")
         case 6:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_fa")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_fa")
         case 7:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_fasm")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_fasm")
         case 8:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_sol")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_sol")
         case 9:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_la")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_la")
         case 10:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_lam")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_lam")
         case 11:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_si")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_si")
         case 12:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_g_sim")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_p_sim")
         default:
-            imgGuitarChord.image = #imageLiteral(resourceName: "img_mastil")
+            imgPianoChord.image = #imageLiteral(resourceName: "img_piano")
         }
     }
 

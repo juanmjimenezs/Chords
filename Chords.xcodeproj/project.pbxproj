@@ -13,6 +13,7 @@
 		FA02BE521E354D6800788636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA02BE511E354D6800788636 /* Assets.xcassets */; };
 		FA02BE551E354D6800788636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA02BE531E354D6800788636 /* LaunchScreen.storyboard */; };
 		FA02BE5D1E356AED00788636 /* GuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02BE5C1E356AED00788636 /* GuitarViewController.swift */; };
+		FA02BE5F1E358D2C00788636 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02BE5E1E358D2C00788636 /* PianoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA02BE541E354D6800788636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA02BE561E354D6800788636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA02BE5C1E356AED00788636 /* GuitarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarViewController.swift; sourceTree = "<group>"; };
+		FA02BE5E1E358D2C00788636 /* PianoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA02BE4A1E354D6800788636 /* AppDelegate.swift */,
 				FA02BE4C1E354D6800788636 /* ViewController.swift */,
 				FA02BE4E1E354D6800788636 /* Main.storyboard */,
+				FA02BE5E1E358D2C00788636 /* PianoViewController.swift */,
 				FA02BE5C1E356AED00788636 /* GuitarViewController.swift */,
 				FA02BE511E354D6800788636 /* Assets.xcassets */,
 				FA02BE531E354D6800788636 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				FA02BE4D1E354D6800788636 /* ViewController.swift in Sources */,
 				FA02BE5D1E356AED00788636 /* GuitarViewController.swift in Sources */,
+				FA02BE5F1E358D2C00788636 /* PianoViewController.swift in Sources */,
 				FA02BE4B1E354D6800788636 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
